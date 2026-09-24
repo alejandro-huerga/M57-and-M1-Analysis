@@ -45,6 +45,4 @@ pip install -r requirements.txt
 - All code comments, docstrings, and plot labels are in English; variable and function names were kept unchanged from the original working version.
 - Some cells (e.g. selecting calibration star coordinates) require a one-time manual step: clicking on stars in a displayed image and copying the printed coordinates into the corresponding cell.
 
-## License
 
-Add a license of your choice (e.g. MIT) if you intend this repository to be reused by others.
