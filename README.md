@@ -21,7 +21,11 @@ The pipeline covers the full workflow of ground-based CCD photometry, from raw F
 
 ## Data
 
-The raw FITS frames (bias, dark, flat, and science images) used in this notebook were obtained by master's students at the Calar Alto Observatory during the 2023/2024 course. They are not included in this repository due to size; see the notebook for the expected folder structure, or download them from the shared Drive folder linked at the top of the notebook.
+The raw FITS frames (bias, dark, flat, and science images) used in this notebook are not included in this repository due to their size (~7 GB). They are hosted on Google Drive:
+
+**[Datos TEA 25/26](https://drive.google.com/drive/folders/1vNXHXhQsEwNVB5EtbLD6huV6AIJr7NwS?usp=sharing)**
+
+This folder contains the calibration frames (bias, dark, flat) and the science frames organized by observation date (e.g. `2025-11-06`), matching the folder structure expected by the `base` path at the top of the notebook. Download the relevant subfolders and update `base` to point to your local copy before running the notebook.
 
 ## Requirements
 
