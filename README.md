@@ -37,7 +37,7 @@ Reduction and analysis of long-slit spectroscopic data taken with CAFOS at Calar
 The raw FITS frames used in these notebooks are not included in this repository due to their size.
 
 - **M57**: hosted on Google Drive — **[Datos TEA 25/26](https://drive.google.com/drive/folders/1vNXHXhQsEwNVB5EtbLD6huV6AIJr7NwS?usp=sharing)**. Contains the calibration frames (bias, dark, flat) and the science frames organized by observation date (e.g. `2025-11-06`), matching the folder structure expected by the `base` path in `M57_photometry_analysis.ipynb`.
-- **M1**: not yet uploaded to a shared location. *(TODO: add a Drive/Zenodo link here once the data is uploaded.)*
+- **M1**: hosted on Google Drive — **[M1 data (Calar Alto 180216)](https://drive.google.com/file/d/1OGijskBHZt4HAW-KYM0VQjzLR3PLjNcs/view?usp=sharing)**. Download and unzip it, then point `base` in `M1_spectroscopy_analysis.ipynb` to the resulting folder.
 
 For both notebooks, update the `base` path near the top of the notebook to point to your local copy of the corresponding dataset before running.
 
@@ -62,4 +62,6 @@ pip install -r requirements.txt
 - All code comments, docstrings, and plot labels are in English; variable and function names were kept unchanged from the original working versions.
 - In `M57_photometry_analysis.ipynb`, selecting calibration star coordinates requires a one-time manual step: clicking on stars in a displayed image and copying the printed coordinates into the corresponding cell.
 
+## License
 
+Add a license of your choice (e.g. MIT) if you intend this repository to be reused by others.
